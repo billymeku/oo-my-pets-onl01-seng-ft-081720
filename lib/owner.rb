@@ -68,11 +68,11 @@ class Owner
     @@owners
   end
 
-  def self.count()
+  def self.count
     @@owners.size 
   end
 
-  def self.reset_all()
+  def self.reset_all
     @@owners.clear
   end
 
