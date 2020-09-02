@@ -19,11 +19,11 @@ class Owner
     "I am a #{species}."
   end
 
-  def cats()
+  def cats
     @cats
   end
 
-  def dogs()
+  def dogs
     @dogs
   end
 
@@ -64,7 +64,7 @@ class Owner
 
 #class methods
 
-  def self.all()
+  def self.all
     @@owners
   end
 
